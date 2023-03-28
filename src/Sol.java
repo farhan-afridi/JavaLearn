@@ -1,4 +1,4 @@
-// question from hacker rank
+// question from hacker rank                contains query related to STRING
 import java.io.*;
 import java.util.*;
 public class Sol

@@ -12,7 +12,7 @@ class sgar        //Variable Args
         int i = 0 ;
         for (i = 0 ; i<a ; i++)
         {
-            System.out.println (arr[i]);
+            System.out.print (arr[i]);
         }
     }
 }
