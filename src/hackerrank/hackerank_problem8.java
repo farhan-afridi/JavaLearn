@@ -5,7 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-class hackerank_problem
+class hackerank_problem8
 {
 
     public static void main(String[] args)

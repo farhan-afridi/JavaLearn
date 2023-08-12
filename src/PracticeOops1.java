@@ -25,11 +25,12 @@ public class PracticeOops1   //only one public class in a package
         farhan.id = 12;                         //properties
         farhan.name= "Sharoz Farhan Afridi";
         farhan.salary = 34;                 //recommended to store in a variable and then use with string
-        //System.out.println (" My new ID = "+farhan.id);    //'farhan.id' can be called separately, called with String inside SOPln can cause error
+//        System.out.println (" My new ID in direct print = "+farhan.id);    //'farhan.id' can be called separately, called with String inside SOPln can cause error
         //System.out.println (farhan.name);
         farhan.PrintDetails();
         s1=farhan.salary;
-        System.out.println ("Salary Farhan = "+s1);
+//        System.out.println ("Salary Farhan = "+s1);
+//        farhan.GetSalary();
         
         Employee zoya = new Employee ();       // Individual 2
         zoya.id = 17;                         //properties

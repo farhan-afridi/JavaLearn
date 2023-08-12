@@ -31,16 +31,16 @@ public class Array_list
         l1.set(0,0);
         System.out.println(l1);
 
-        l1.clear();
-        System.out.println("Final "+l1);
+//        l1.clear();
+//        System.out.println("Final "+l1);
 
 //        System.out.println("First Occurrence of 3 in L1 = "+l1.indexOf(3));
 //        System.out.println("Last Occurrence of 3 in L1 = "+l1.lastIndexOf(3));
 
-//        l1.add(3,9);        // shifts the element at that index, and adds the specified element to that index
-//        System.out.println("Before removing " +l1);
-//        l1.remove(3);
-//        System.out.println("After Removing "+l1);  // another way to print
+        l1.add(3,9);        // shifts the element at that index, and adds the specified element to that index
+        System.out.println("Before removing " +l1);
+        l1.remove(3);
+        System.out.println("After Removing "+l1);  // another way to print
 //
 //        System.out.println("Does L1 list contains 3 ? " +l1.contains(3));       //returns true or false
 //        System.out.println("Does L1 list contains 8 ? " +l1.contains(8));       //returns true or false

@@ -2,7 +2,7 @@ class Cons_truct      // Constructor and Constructor overloading
 {
     public static void main(String[] args)
     {
-        MyEmployee far = new MyEmployee(45);      //automatically calls the constructor, when the object id created
+        MyEmployee far = new MyEmployee("Farhan",4);      //automatically calls the constructor, when the object id created
                                                             //if parameter given, initialises the class variables(Attributes)
         //far.setName ("Zoya");
         //far.setId (55);

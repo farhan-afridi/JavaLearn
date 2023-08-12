@@ -17,7 +17,7 @@ class SampleInheritance
         
         // method of base class (parent class) can be called from object of derived class(child class)
         
-        System.out.println ("Calling method of Base class from Derived class = ");
+        System.out.println ("Calling method of Base class from Derived class Object = ");
         d.setX(8);
         d.printMe();
         System.out.println ("X from object of Derived class = "+d.getX());

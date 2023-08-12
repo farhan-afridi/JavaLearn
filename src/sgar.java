@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class sgar        //Variable Args
 {
     public static void main(String[] args)
@@ -12,7 +14,9 @@ class sgar        //Variable Args
         int i = 0 ;
         for (i = 0 ; i<a ; i++)
         {
-            System.out.print (arr[i]);
+            System.out.print (arr[i]+", ");
         }
+
+        System.out.println("\n"+Arrays.toString(arr));  //Another way to display array
     }
 }
